@@ -2,7 +2,7 @@
 
 ** Identifying at risk individuals for depression (supervised classification model) **
 
-* Data: [Healthy Minds Study from University of Michigan](https://drive.google.com/file/d/1ztveho7__09zXvd9hcoElqDUYAXrQZnt/view?usp=sharing) (2016-2017 academic year)
+* Data: Healthy Minds Study from University of Michigan (2016-2017 academic year)
 * Goal: Identifying who is at risk for depression based on existing data
 
 ** Workflow **
