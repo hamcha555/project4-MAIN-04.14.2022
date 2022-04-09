@@ -26,7 +26,7 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
 
   <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="../static/mainpage.css">
+  <!-- <link rel="stylesheet" type="text/css" href="../static/mainpage.css"> -->
 
 </head>
 
@@ -34,10 +34,32 @@
 <body style="background-color: #FFFFFF">
 <img src="../static/graphics/banner.png">
 
+<div class="login">
+  <h1>Predict Depression Status</h1>
+
+  <form action="{{ url_for('predict')}}"method="POST">
+    <input type="text" name="hrsworked" placeholder="Age" required="required" /><br>
+    <input type="text" name="age" placeholder="Age" required="required" /><br>
+    <input type="text" name="bmi" placeholder="Age" required="required" /><br>
+    <input type="text" name="residenc" placeholder="Where do currently live?" required="required" /><br>
+    <input type="text" name="timeclass" placeholder="" required="How much time do you spend during the typical week attending class?" /><br>
+    <input type="text" name="BRS_1" placeholder="I tend to bounce back quickly after hard times" required="required" /><br>
+    <input type="text" name="BRS_3" placeholder="It does not take long to recover from a stressful event" required="required" /><br>
+    <input type="text" name="BRS_5" placeholder="I usually come through difficult times with little trouble" required="required" /><br>
+    <input type="text" name="belong8" placeholder="I feel isolated from campus life" required="required" /><br>
+    <input type="text" name="educ_par2" placeholder="Parent Education Level" required="required" /><br>
+
+    <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+  </form>
+</div>
+
+
+
+
 <div class="container">
   <div class="navbar">
       <a href="../templates/index.html">Home</a>
-      <a href="../templates/mentalhealth.html">Mental Health</a>
+      <a href="../templates/home.html">Mental Health</a>
       <div class="dropdown">
         <button class="dropbtn">Resources
           <i class="fa fa-caret-down"></i>
