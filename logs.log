@@ -8,3 +8,5 @@
 2022-04-10 21:39:11,835:INFO:load_model(model_name=log_regr_pipeline, platform=None, authentication=None, verbose=True)
 2022-04-10 21:41:32,814:INFO:Initializing load_model()
 2022-04-10 21:41:32,814:INFO:load_model(model_name=log_regr_pipeline, platform=None, authentication=None, verbose=True)
+2022-04-10 22:01:46,084:INFO:Initializing load_model()
+2022-04-10 22:01:46,084:INFO:load_model(model_name=log_regr_pipeline, platform=None, authentication=None, verbose=True)

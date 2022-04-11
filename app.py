@@ -17,9 +17,9 @@ def home():
 def mentalhealth():
     return render_template("mentalhealth.html")
 
-@app.route('/resources.html')
+@app.route('/assessment.html')
 def resources():
-    return render_template("resources.html")
+    return render_template("assessment.html")
 
 @app.route('/predict', methods = ['POST'])
 def predict():
