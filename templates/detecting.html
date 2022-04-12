@@ -76,7 +76,7 @@
   </div>
     <div>
       <div class="form"> 
-      <form action="/results"method="POST">
+      <form action="/predict"method="POST">
         <label for="hrsworked">What is the average amount of hours you spent working for money in college?</label>
         <br>
         <input type="text" id="hrsworked" name="hoursworked" placeholder="Hours Worked.." required="required">
@@ -177,13 +177,13 @@
         </select>
         <br>
         <br> 
-        <center><button class="submit">
-          <a target="_blank" href="/predict.html">SUBMIT</a></button></center>
-          <!-- <h2>
-            <b>
-            {{ prediction_text }}
-            </b>
-          </h2> -->
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+      </form>
+        <!-- <center><button class="submit"> -->
+          <!-- <a target="_blank" href="/predict.html">SUBMIT</a></button></center> -->
+        <br>
+        <br>
+        {{ prediction_text }}  
     </div>    
     </div>
     </div>
@@ -191,7 +191,7 @@
 </div>
 
 
-</form>
+<!-- </form> -->
 </body>
 
 
