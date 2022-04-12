@@ -58,16 +58,18 @@
     <h2>For the following questions, type the number associated with the answer that best explains your situation.</h2>
 
     <p>Type the average amount of hours you spent working for money in college.</p>
-    <input type="text" name="hrsworked" placeholder="Age" required="required" /><br>
+    <input type="text" name="hrsworked" placeholder="hours" required="required" /><br>
+    <br>
 
     <p>Type your age.</p>
     <input type="text" name="age" placeholder="Age" required="required" /><br>
 
     <p>Type your BMI</p>
-    <h3>BMI For Adults Widget</h3><br /><br /><br /><br />
-    <p><iframe src='https://www.cdc.gov/healthyweight/assessing/adult-widget/iframe.html' frameborder='0' style='border: none;' width='170' height='395'>Please upgrade to web browser that supports iframes to see this CDC widget.</iframe>
+    <h3>BMI For Adults Widget</h3>
+    <p><iframe src='https://www.cdc.gov/healthyweight/assessing/adult-widget/iframe.html' frameborder='0' style='border: none;' width='170' height='395'>Please upgrade to web browser that supports iframes to see this CDC widget.</iframe></p>
 
-    <input type="text" name="bmi" placeholder="Age" required="required" /><br>
+    <input type="text" name="bmi" placeholder="BMI" required="required" /><br>
+    <br>
 
     <p>"Where did you live while in college?"
       
@@ -79,7 +81,8 @@
       6=With my parents (or relatives) <br>
       7=Other (please specify)</p>
 
-    <input type="text" name="residenc" placeholder="Where do currently live?" required="required" /><br>
+    <input type="text" name="residenc" placeholder="type number" required="required" /><br>
+    <br>
 
     <p> How much time do you spend during the typical week attending class?<br>
       
@@ -91,7 +94,8 @@
       6=16-20 hours/week <br>
       7=More than 20 hours/week</p>
 
-    <input type="text" name="timeclass" placeholder="How much time do you spend during the typical week attending class?" required="required" /><br>
+    <input type="text" name="timeclass" placeholder="type number" required="required" /><br>
+    <br>
 
 
     <p> I tend to bounce back quickly after hard times.<br>
@@ -102,8 +106,8 @@
       4=Agree<br>
       5=Strongly agree</p>
 
-    <input type="text" name="BRS_1" placeholder="I tend to bounce back quickly after hard times" required="required" /><br>
-
+    <input type="text" name="BRS_1" placeholder="type number" required="required" /><br>
+    <br>
     <p> It does not take me long to recover from a stressful event.<br>
       
       1=Strongly disagree<br>
@@ -113,7 +117,8 @@
       5=Strongly agree</p>
 
 
-    <input type="text" name="BRS_3" placeholder="It does not take long to recover from a stressful event" required="required" /><br>
+    <input type="text" name="BRS_3" placeholder="type number" required="required" /><br>
+    <br>
 
     <p> I usually come through difficult times with little trouble.<br>
       
@@ -123,7 +128,8 @@
       4=Agree<br>
       5=Strongly agree</p>
 
-    <input type="text" name="BRS_5" placeholder="I usually come through difficult times with little trouble" required="required" /><br>
+    <input type="text" name="BRS_5" placeholder="type number" required="required" /><br>
+    <br>
 
     <p> How much do you agree with the following statement?: I feel isolated from campus life.<br>
       
@@ -134,7 +140,8 @@
       5=Disagree<br>
       6=Strongly disagree</p>
 
-    <input type="text" name="belong8" placeholder="I feel isolated from campus life" required="required" /><br>
+    <input type="text" name="belong8" placeholder="type number" required="required" /><br>
+    <br>
 
     <p> What is the highest level of education completed by your parents or stepparents?<br>
       
@@ -150,11 +157,15 @@
 
     </p>
 
-    <input type="text" name="educ_par2" placeholder="Parent Education Level" required="required" /><br>
+    <input type="text" name="educ_par2" placeholder="type number" required="required" /><br>
+    <br>
 
     <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
   </form>
 </div>
+
+<!-- JavaScript file -->
+<script type="text/javascript" src="../static/js/logic.js"></script>
 
 
 
