@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Site</title>
+
+ <!-- CSS only -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+ <!-- Leaflet CSS -->
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+ integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+ crossorigin=""/>
+
+ <!-- Our CSS -->
+ <link rel="stylesheet" type="text/css" href="../static/css styles/main.css">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+
+<body>
+
+    <div class="split">
+    <div class="split left">
+    <body style="background-color:#162942">
+      <div class="navbar">
+        <a class="active" href="index.html">Home</a>
+        <a href="resources.html">Support Resources</a>
+        <a href="detecting.html">Detecting Depression</a>
+      </div>
+        <br>
+        <br>
+        <br>
+    <div class="main">
+            <center><img src="../static/graphics/Untitled design (2).png" alt="Sad" style="width:600px;height:50%"></center>
+            </div>
+          </div>
+        </div>
+    <div class="split right">
+        <div class="centeredmh">
+            <br>
+            <br>
+            <h3><strong>Are you at risk for depression?</strong></h3>
+            <br>
+            <p>Your survey results will indicate a depression detection score ranging from 1 (mild) to 5 (severe). 
+                <br>
+                <br>
+                Score: {{ prediction_text }}</p>
+            </div>
+</body>
