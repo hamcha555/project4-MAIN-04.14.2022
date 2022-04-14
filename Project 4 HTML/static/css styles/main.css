@@ -20,8 +20,6 @@
     padding: 25px;
   }
 
-
-
 /*Content*/
 .body{
     font-family: sans-serif;
@@ -40,6 +38,12 @@
 .content p{
   font-size: 17px;
 }
+.resultstext {
+  font-size: 22px;
+  color:#FFFFFF;
+  padding: 25px;
+
+}
 
 /* Navigation links */
 .navbar a {
@@ -50,13 +54,11 @@
   font-size: 50px;
   width: 15%; 
   text-align: center; 
+  background-color: #447DB2;
 }
 
 .navbar a:hover {
   background-color: #000;
-}
-.navbar a.active {
-  background-color: #447DB2;
 }
 
 .navbar a {
@@ -67,7 +69,6 @@
     font-size: 50px;
 
   }
-
 
 /*CSS for the accordion interaction*/
 .accordion > input[type="checkbox"] {
@@ -88,7 +89,6 @@
     background-color: #162942;
     font-size: 20px;
   }
-
 
   /*Styling the accordion*/
   body {
@@ -132,7 +132,6 @@
     content: "\f078";
   }
 
-
 /*Button links in accordion */
 .supportbutton, a:link, a:visited {
     background-color: #447DB2; 
@@ -150,6 +149,7 @@
     background-color: #4F8DC6;
   }
 
+/*form*/
 .form {
   font-size: 18px;
 }
